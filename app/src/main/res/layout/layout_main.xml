@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gris"
+        android:text="@string/text_view_1"
+        android:textSize="30dp"
+        android:textColor="@color/negro"/>
+
+    <RadioGroup android:id="@+id/RadGp_Fun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <RadioButton android:id="@+id/Radio_sin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sin"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <RadioButton android:id="@+id/Radio_cos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cos"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <RadioButton android:id="@+id/Radio_tan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tan"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gris"
+        android:text="@string/text_view_2"
+        android:textSize="30dp"
+        android:textColor="@color/negro"/>
+
+    <RadioGroup android:id="@+id/RadGp_Grados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <RadioButton android:id="@+id/Radio_45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gd_45"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <RadioButton android:id="@+id/Radio_90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gd_90"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <RadioButton android:id="@+id/Radio_180"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gd_180"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:padding="5dp"
+        />
+
+    <TextView android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/result"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>
